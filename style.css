@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 600px;
+  margin: 100px auto;
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  gap: 20px;
+}
+.col {
+  width: 100%;
+  border: 1px solid black;
+  margin: 2px;
+  padding: 10px;
+}
+.col img {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+.price-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price-btn button {
+  background-color: blue;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.price-btn input{
+    width: 40px;
+}
+.buys h1{
+    text-align: center;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+.btns input{
+    width: 30px;
+}
